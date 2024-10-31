@@ -19,7 +19,64 @@
     </nav>
     <div class="container">
         <h1>Контакты</h1>
-        <p>Вы можете связаться с нами по электронной почте: example@example.com</p>
+        <p>Вы можете связаться с нами по следующим каналам:</p>
+
+        <h2>Электронная почта</h2>
+        <p>Пишите нам на: <a href="mailto:example@example.com">example@example.com</a></p>
+
+        <h2>Телефон</h2>
+        <p>Наш телефон: <strong>+7 (123) 456-78-90</strong></p>
+
+        <h2>Адрес</h2>
+        <p>Мы находимся по адресу: <strong>г. Москва, ул. Примерная, д. 1</strong></p>
+
+        <h2>Форма обратной связи</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Введите ваш email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Сообщение:</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Введите ваше сообщение" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Отправить</button>
+        </form>
+
+        <h2 class="mt-5">Наша команда</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://avatars.mds.yandex.net/get-ydo/1540809/2a00000168d34b8bce5da053766eb8ec2218/diploma" class="card-img-top" alt="Член команды 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Иван Иванов</h5>
+                        <p class="card-text">Менеджер по продажам. Свяжитесь с ним для получения информации о наших продуктах.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://i.pinimg.com/originals/8c/02/b4/8c02b4293087c1fe27641e068c8f624d.jpg" class="card-img-top" alt="Член команды 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Мария Петрова</h5>
+                        <p class="card-text">Специалист по поддержке. Она поможет вам с любыми вопросами.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="https://pixy.org/src2/580/5807568.jpg" class="card-img-top" alt="Член команды 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Алексей Смирнов</h5>
+                        <p class="card-text">Технический директор. Ответит на все ваши технические вопросы.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
